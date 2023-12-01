@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> 
+    <link rel="stylesheet" href="./main.css">
+    <title>I wanna Be</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold">I Wanna Be Tour</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-evento" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o evento
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#datas" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Datas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#bandas" class="nav-link">
+                            <i class="bi bi-music-player"></i>
+                            Bandas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#adiquira-infos" class="nav-link">
+                            <i class="bi bi-ticket"></i>
+                            Adiquira seu ingresso 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-evento">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagens/PosterIWB.jpg" alt="Poster oficial" class="mx-auto d-block">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/Mapa_SP.png" alt="Mapa de São Paulo" class="mx-auto d-block">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/Mapa_Curitiba.jpg" alt="Mapa de Curitiba" class="mx-auto d-block">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/Mapa_Recife.jpg" alt="Mapa de Recife" class="mx-auto d-block">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h2 class="section-title text-center">Sobre o evento</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus itaque facere mollitia ducimus repellat, quia vel qui. Quis, ex aut. Blanditiis odit quia, optio facilis amet sapiente reiciendis voluptate mollitia?</p>
+                            <h3 class="section-title text-center">Dicas uteis</h3>
+                            <ul>
+                                <li><i class="bi bi-check-circle"></i> Pode levar garrafas de água fechadas</li>
+                                <li><i class="bi bi-x-circle"></i> Não levar nada metálico ou cortante</li>
+                                <li><i class="bi bi-info-circle"></i> Chegar com pelo menos 3 horas de antecedencia</li>
+                                <li><i class="bi bi-info-circle"></i> Em caso de meia entradas estejam com o os documentos em mão</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="imagens/Show.jpg" class="d-block w-100" alt="Palco">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="datas" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Datas do evento</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <h3 class="section-title fs-4 text-center">São Paulo</h3>
+                        <img src="./imagens/Locais/Allianz_parque.jpg" alt="Estadio São Paulo" class="d-block w-100 rounded mt-2">
+                        <p>Data: 02/03/2024<br>Local: Allianz Parque</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit beatae saepe.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="section-title fs-4 text-center">Curitiba</h3>
+                        <img src="./imagens/Locais/Couto_pereira.jpg" alt="Estadio Curitiba" class="d-block w-100 rounded mt-2">
+                        <p>Data: 03/03/2024<br>Local: Estádio Couto Pereira</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit beatae saepe.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="section-title fs-4 text-center">Recife</h3>
+                        <img src="./imagens/Locais/centrodeconvencoes.jpg" alt="Centro de conveções" class="d-block w-100 rounded mt-2">
+                        <p>Data: 06/03/2024<br>Local: Area Externa do Centro de Convenções Pernambuco </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit beatae saepe.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="section-title fs-4 text-center">Rio de Janeiro</h3>
+                        <img src="./imagens/Locais/Nilton_santos.jpg" alt="Estadio Rio de janeiro" class="d-block w-100 rounded mt-2">
+                        <p>Data: 09/03/2024<br>Local: Estádio Nilton Santos</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit beatae saepe.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="section-title fs-4 text-center">Belo Horizonte</h3>
+                        <img src="./imagens/Locais/Independencia.jpg" alt="Arena de independência" class="d-block w-100 rounded mt-2">
+                        <p>Data: 10/03/2024<br>Local: Arena da independência </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit beatae saepe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bandas" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-4">Nossas principais atrações</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#simple-plan" class="fw-bold text-start nav-link text-coloured active">SIMPLE PLAN</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Day-remember" class="fw-bold text-start nav-link text-coloured">A DAY TO REMEMBER</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#asking-alexandria" class="fw-bold text-start nav-link text-coloured">ASKING ALEXANDRIA</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fresno" class="fw-bold text-start nav-link text-coloured">FRESNO</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="simple-plan">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/bandas/Simple-plan.jpg" alt="Foto da banda simple plan" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, molestias libero necessitatibus, vitae ut, saepe deserunt placeat totam id eius dolores autem aperiam ratione quo nostrum fugiat voluptatem? Necessitatibus, pariatur.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, molestias libero necessitatibus, vitae ut, saepe deserunt placeat totam id eius dolores autem aperiam ratione quo nostrum fugiat voluptatem? Necessitatibus, pariatur.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, molestias libero necessitatibus, vitae ut, saepe deserunt placeat totam id eius dolores autem aperiam ratione quo nostrum fugiat voluptatem? Necessitatibus, pariatur.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Day-remember">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/bandas/A-day-remember.jpg" alt="Foto da banda a day to remember" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, labore aliquid. Quibusdam quae aliquam sapiente harum quia earum, hic corporis pariatur nihil ipsam sit a corrupti quasi asperiores incidunt officia?
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, labore aliquid. Quibusdam quae aliquam sapiente harum quia earum, hic corporis pariatur nihil ipsam sit a corrupti quasi asperiores incidunt officia?
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, labore aliquid. Quibusdam quae aliquam sapiente harum quia earum, hic corporis pariatur nihil ipsam sit a corrupti quasi asperiores incidunt officia?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="asking-alexandria">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/bandas/Asking-alexandria.jpg" alt="Foto da banda Asking Alexandria" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate corrupti eum, harum quae unde error ducimus eos consectetur possimus debitis quod ad quibusdam aspernatur, animi rerum cum, expedita enim perferendis.
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate corrupti eum, harum quae unde error ducimus eos consectetur possimus debitis quod ad quibusdam aspernatur, animi rerum cum, expedita enim perferendis.
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate corrupti eum, harum quae unde error ducimus eos consectetur possimus debitis quod ad quibusdam aspernatur, animi rerum cum, expedita enim perferendis.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="fresno">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/bandas/fresno.jpg" alt="Foto da banda Fresno" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum doloremque vitae veniam earum officia recusandae voluptatum. Labore sed laboriosam assumenda quae laudantium. Corporis repellendus illo sint aspernatur dolorem, quis quisquam.
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum doloremque vitae veniam earum officia recusandae voluptatum. Labore sed laboriosam assumenda quae laudantium. Corporis repellendus illo sint aspernatur dolorem, quis quisquam.
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum doloremque vitae veniam earum officia recusandae voluptatum. Labore sed laboriosam assumenda quae laudantium. Corporis repellendus illo sint aspernatur dolorem, quis quisquam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="adiquira-infos" class="py-5">
+            <div class="container">
+                <div class="row pb-3">
+                    <h2 class="section-title text-center">Receba todas informações</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-coloured" for="nome">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required placeholder="Digite seu nome">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-coloured" for="email">Seu email</label>
+                                <input type="text" id="email" class="form-control" required placeholder="exemplo@exemplo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-coloured" for="telefone">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="ex. 9xxxx-xxxx" pattern="[0-9]{5}-[0-9]{4}">
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-coloured">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-coloured"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-coloured"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-coloured"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-coloured">
+                                <i class="bi bi-info-lg"></i>
+                                Saiba mais
+                            </h3>
+                            <p>Em caso de interesse na compra de ingressos ou saber dos nosso proximos eventos nos envie seus dados estar sempre atualizado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

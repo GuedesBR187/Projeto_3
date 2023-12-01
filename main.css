@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar{
+    background-color: #56107e;
+}
+
+#cabecalho .nav .nav-link.active,
+#bandas button.active,
+.navbar-toggler,
+#adiquira-infos button{
+    background-color: #e2f807;
+    color: #56107e;
+}
+
+.section-title{
+    font-family: 'Rock Salt', cursive;
+    color: #e2f807;
+    font: bold;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.text-coloured{
+    color: #e2f807;
+}
+
+.carousel-item img{
+    height: 40vw;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+#bandas button{
+    background-color: #56107e;
+}
+
+section{
+    background-color: rgba(0,0,0, 0.3);
+}
+
+li{
+    list-style: none;
+}
+
+#datas img{
+    max-height: 200px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
